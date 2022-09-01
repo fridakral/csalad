@@ -1,0 +1,14 @@
+body{
+    max-height: 100%;
+    color: #344955;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.first_row, .second_row{
+    display: flex;
+}
+
+.icon{
+    height: 10vh;
+}
+
