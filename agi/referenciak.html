@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS meghivatkozása -->
+    <link rel="stylesheet" href="style_referenciak.css">
+    <title>Král Ági</title>
+</head>
+<body>
+    <header>
+        <div class="bg-image"></div>
+
+        <div class="bg-text">
+            <h1>Referenciák</h1>
+        </div>
+    </header>
+    <!-- naviáció -->
+    <nav>
+        <!-- felsorolás, lista -->
+        <ul>
+            <!-- listaelem -->
+            <li>
+                <!-- link -->
+                <a href="agi.html">Bemutatkozás</a>
+            </li>
+            <li>
+                <a href="szolgaltatasok.html">Szolgáltatások</a>
+            </li>
+            <li>
+                <a class="aktiv_lap" href="referenciak.html">Referenciák</a>
+            </li>
+            <li>
+                <a href="kapcsolat.html">Kapcsolat</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="container">
+            <div class="mySlides">
+                <div class="numbertext">1 / 6</div>
+                <img src="kepek/ref_1.JPG" style="width:100%">
+            </div>
+            
+            <div class="mySlides">
+                <div class="numbertext">2 / 6</div>
+                <img src="kepek/ref_2.JPG" style="width:100%">
+            </div>
+            
+            <div class="mySlides">
+                <div class="numbertext">3 / 6</div>
+                <img src="kepek/ref_3.JPG" style="width:100%">
+            </div>
+            
+            <div class="mySlides">
+                <div class="numbertext">4 / 6</div>
+                <img src="kepek/ref_4.JPG" style="width:100%">
+            </div>
+            
+            <div class="mySlides">
+                <div class="numbertext">5 / 6</div>
+                <img src="kepek/ref_5.JPG" style="width:100%">
+            </div>
+            
+            <div class="mySlides">
+                <div class="numbertext">6 / 6</div>
+                <img src="kepek/ref_6.JPG" style="width:100%">
+            </div>
+
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+
+            <div class="row">
+                <div class="column">
+                <img class="demo cursor" src="kepek/ref_1.JPG" style="width:100%" onclick="currentSlide(1)" alt="Körmök">
+                </div>
+                <div class="column">
+                <img class="demo cursor" src="kepek/ref_2.JPG" style="width:100%" onclick="currentSlide(2)" alt="Másfajta körmök">
+                </div>
+                <div class="column">
+                <img class="demo cursor" src="kepek/ref_3.JPG" style="width:100%" onclick="currentSlide(3)" alt="Különböző színűek">
+                </div>
+                <div class="column">
+                <img class="demo cursor" src="kepek/ref_4.JPG" style="width:100%" onclick="currentSlide(4)" alt="Színátmenetes körmök">
+                </div>
+                <div class="column">
+                <img class="demo cursor" src="kepek/ref_5.JPG" style="width:100%" onclick="currentSlide(5)" alt="Pirosak">
+                </div>    
+                <div class="column">
+                <img class="demo cursor" src="kepek/ref_6.JPG" style="width:100%" onclick="currentSlide(6)" alt="Levélmintás körmök">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="slide_gallery.js"></script>
+    <footer>
+        <p>
+            Fordulj hozzám bizalommal.
+        </p>
+    </footer>
+    
+</body>
+</html>

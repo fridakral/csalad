@@ -1,0 +1,145 @@
+body{
+    background: #eeeeee;
+    margin: 0;
+    padding: 0;
+    color: #666666;
+    font-family: sans-serif, Arial, Verdana;
+    font-size: 15px;
+    line-height: 1.5;
+}
+* {
+    box-sizing: border-box;
+}
+header{
+    padding: 25px;
+    height: 250px;
+    background-image: url(kepek/pava_1.jpg);
+    background-size: cover  ;
+    background-position: center;
+    text-align: center;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+
+.bg-text{
+    background-color: rgba(0, 0, 0, 0.33);
+    color: #fff;
+    max-width: 60%;
+    padding: 25px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255,255, 255, 0.75);
+    margin: auto;
+}
+
+nav{
+    background: #666666;
+    color: #ffffff;
+}
+nav a{
+    padding:15px;
+    display: block;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ddd;
+    transition: background 0.3s, color 0.3s;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+nav a:hover{
+    background: #05A696;
+    color: #fff;
+}
+
+nav li{
+    display: inline-block;
+}
+
+img{
+    max-width: 70%;
+    max-height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.container {
+    max-height: 70%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+main{
+    background:#fff;
+    padding: 25px;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1200px;
+    margin:auto;
+
+}
+
+i {
+    font-size: 50px;
+    display: block;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+
+.caption-container {
+    text-align: center;
+    background-color: #05a6969a;
+    padding: 1px 8px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.column {
+    float: left;
+    width: 16.66%;
+}
+
+.demo {
+    opacity: 0.6;
+}
+
+.active, .demo:hover {
+  opacity: 1;
+}
+
+footer{
+    clear: both;
+    background: #999999;
+    padding: 25px;
+    height: 100px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.66);
+    font-size: 13px;
+}
+
+
+.aktiv_lap{
+    color: #05a696;
+}
