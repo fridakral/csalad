@@ -1,14 +1,31 @@
 body{
     max-height: 100%;
     color: #344955;
-    font-family:'Times New Roman', Times, serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .first_row, .second_row{
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .icon{
     height: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
+
+
+.member{
+    margin-left: 10vh;
+    margin-right: 10vh;
+    margin-top: 15vh;
+    text-align: center;
+}
+
+h1{
+    font-size: medium;
+}
