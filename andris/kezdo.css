@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+    
+.wrapper .left, .wrapper .right{
+    width: 100%;
+    height:50vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.wrapper .left{
+    background-color: black;
+}
+
+.wrapper .right{
+    background-color:black;
+}
+
+.wrapper .image{
+    width: 100%;
+    height: 100%;
+}
+
+img{
+    display: block;
+    max-height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.wrapper .left:hover .image{
+    transform: scale(1.2);
+}
+
+.wrapper .left:hover{
+    background-color: white;
+}
+
+.wrapper .left:hover img{
+    content: url(./assets/fishing_dark.svg);
+}
+
+.wrapper .right:hover .image{
+    transform: scale(1.2);
+}
+
+.wrapper .right:hover{
+    background-color: white;
+}
+
+.wrapper .right:hover img{
+    content: url(./assets/paintball_dark.svg);
+}
+
+@media screen and (min-width: 1200px) {
+    .wrapper{
+        display: flex;
+    }
+    
+    .wrapper .left, .wrapper .right{
+        width: 50%;
+        height: 100vh;
+    }
+    
+}
+
+
+
+
+
+
