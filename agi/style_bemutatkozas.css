@@ -130,3 +130,52 @@ h2{
 .aktiv_lap{
     color: #05a696;
 }
+
+@media screen and (max-width: 700px) {
+    
+    main{
+        width: 50%;
+    }
+
+    aside{
+        width: 50%;
+    } 
+}
+
+@media screen and (max-width: 535px) {
+    
+    aside{
+        float: none;
+        width: 100%;
+    }
+    main{
+        width: 100%;
+        float: none;
+    }
+
+    .bg-text{
+        max-width: 100%;
+    }
+
+    header{
+        padding-top: 25px;
+        height: 225px;
+    }
+      
+}
+
+@media screen and (max-width: 400px) {
+    
+    nav li{
+        display: block;
+    }
+
+    .bg-text{
+        padding: 10px;
+    }
+    
+    header{
+        height: 195px;
+    }
+}
+
