@@ -1,0 +1,15 @@
+.kapcsolat{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.kapcsolat_box{
+    text-align: center;
+    max-width: 400px;
+    display: inline-block;
+    position: relative;
+    padding-left: 25px;
+    padding-right: 25px;
+    /*border: 1px solid rgba(150, 150, 150, 0.6);*/   
+}

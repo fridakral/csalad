@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS meghivatkozása -->
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style_referenciak.css">
     <title>Král Ági</title>
 </head>
@@ -41,65 +42,27 @@
     </nav>
 
     <main>
-        <div class="container">
-            <div class="mySlides">
-                <div class="numbertext">1 / 6</div>
-                <img src="kepek/ref_1.JPG" style="width:100%">
-            </div>
-            
-            <div class="mySlides">
-                <div class="numbertext">2 / 6</div>
-                <img src="kepek/ref_2.JPG" style="width:100%">
-            </div>
-            
-            <div class="mySlides">
-                <div class="numbertext">3 / 6</div>
-                <img src="kepek/ref_3.JPG" style="width:100%">
-            </div>
-            
-            <div class="mySlides">
-                <div class="numbertext">4 / 6</div>
-                <img src="kepek/ref_4.JPG" style="width:100%">
-            </div>
-            
-            <div class="mySlides">
-                <div class="numbertext">5 / 6</div>
-                <img src="kepek/ref_5.JPG" style="width:100%">
-            </div>
-            
-            <div class="mySlides">
-                <div class="numbertext">6 / 6</div>
-                <img src="kepek/ref_6.JPG" style="width:100%">
-            </div>
 
-            <div class="caption-container">
-                <p id="caption"></p>
-            </div>
 
-            <div class="row">
-                <div class="column">
-                <img class="demo cursor" src="kepek/ref_1.JPG" style="width:100%" onclick="currentSlide(1)" alt="Körmök">
-                </div>
-                <div class="column">
-                <img class="demo cursor" src="kepek/ref_2.JPG" style="width:100%" onclick="currentSlide(2)" alt="Másfajta körmök">
-                </div>
-                <div class="column">
-                <img class="demo cursor" src="kepek/ref_3.JPG" style="width:100%" onclick="currentSlide(3)" alt="Különböző színűek">
-                </div>
-                <div class="column">
-                <img class="demo cursor" src="kepek/ref_4.JPG" style="width:100%" onclick="currentSlide(4)" alt="Színátmenetes körmök">
-                </div>
-                <div class="column">
-                <img class="demo cursor" src="kepek/ref_5.JPG" style="width:100%" onclick="currentSlide(5)" alt="Pirosak">
-                </div>    
-                <div class="column">
-                <img class="demo cursor" src="kepek/ref_6.JPG" style="width:100%" onclick="currentSlide(6)" alt="Levélmintás körmök">
-                </div>
-            </div>
+        <div class="full_image" onclick="closeFullImg()">
+
+            <img src="" alt="">
+
+            <span onclick="closeFullImg()">X</span>
         </div>
+        <div class="image_gallery">
+            <img src="./kepek/ref_1.JPG" alt="" onclick="openFullImg(this.src)">
+            <img src="./kepek/ref_2.JPG" alt="" onclick="openFullImg(this.src)">
+            <img src="./kepek/ref_3.JPG" alt="" onclick="openFullImg(this.src)">
+            <img src="./kepek/ref_4.JPG" alt="" onclick="openFullImg(this.src)">
+            <img src="./kepek/ref_5.JPG" alt="" onclick="openFullImg(this.src)">
+            <img src="./kepek/ref_6.JPG" alt="" onclick="openFullImg(this.src)">
+        </div>
+
+        <script src="./referencia.js"> </script>
+
     </main>
 
-    <script src="slide_gallery.js"></script>
     <footer>
         <p>
             Fordulj hozzám bizalommal.
