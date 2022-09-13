@@ -13,10 +13,12 @@ body{
 
 .wrapper .left{
     background-color: black;
+    cursor: pointer;
 }
 
 .wrapper .right{
     background-color:black;
+    cursor: pointer;
 }
 
 .wrapper .image{
@@ -35,11 +37,13 @@ img{
 }
 
 .wrapper .left:hover .image{
-    transform: scale(1.2);
+    transform: scale(1.6);
+    transition-duration: 2s;
 }
 
 .wrapper .left:hover{
     background-color: white;
+    transition-duration: 1s;
 }
 
 .wrapper .left:hover img{
@@ -47,11 +51,13 @@ img{
 }
 
 .wrapper .right:hover .image{
-    transform: scale(1.2);
+    transform: scale(1.6);
+    transition-duration: 2s;
 }
 
 .wrapper .right:hover{
     background-color: white;
+    transition-duration: 1s;
 }
 
 .wrapper .right:hover img{
