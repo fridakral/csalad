@@ -1,0 +1,27 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+body{
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.diagonal-box {
+    background-image: linear-gradient(45deg, #9d00bd, #01ac87);
+    transform: skewY(-11deg);
+} 
+
+
+.content { 	
+	max-width: 50em;
+    margin: 0 auto;
+    transform: skewY(11deg);
+}
