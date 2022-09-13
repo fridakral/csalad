@@ -6,7 +6,7 @@
 
 
 .container{
-    width: 100%;
+    max-width: 100%;
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -54,10 +54,28 @@ p{
         color: rgb(31, 31, 31);
         letter-spacing: 2px;
         line-height: 20px;
+
     }
 
     .title{
         font-size: 30px;
     }
+    
+}
+
+@media screen and (max-width: 330px){
+
+    p{
+        text-align:left;
+        text-indent: -5vw;
+        margin-left: 5vw;
+    }
+
+    .container{
+        padding-left: 5vw;
+        padding-right: 5vw;
+        align-items:baseline;
+    }
+    
     
 }
